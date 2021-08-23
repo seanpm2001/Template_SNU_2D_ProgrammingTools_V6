@@ -7,9 +7,9 @@
 
 # By:
 
-![SNU Logo: This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](SNU_blue_and_gold_legacy_icon.png)
+![SNU Logo: This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](/SNU_blue_and_gold_legacy_icon.png)
 
-## [Seanpm2001](https://github.com/seanpm2001/) / [SNU Programming Tools](https://github.com/SNU-Programming-Tools), Et; Al.
+## [Seanpm2001](https://github.com/seanpm2001/) / [SNU Programming Tools](https://github.com/SNU-Programming-Tools/), Et; Al.
 
 ### Top
 
@@ -68,35 +68,41 @@ Translations are done with Google Translate due to limited or no support for the
 
 > [04.4 - Modern History](#Modern-history)
 
-[05.0 - Version history](#Version-history)
+[05.0 - Copying](#Copying)
 
-[06.0 - Software status](#Software-status)
+[06.0 - Credits](#Credits)
 
-[07.0 - Sponsor info](#Sponsor-info)
+[07.0 - Installation](#Installation)
 
-[08.0 - Contributers](#Contributers)
+[08.0 - Version history](#Version-history)
 
-[09.0 - Issues](#Issues)
+[09.0 - Software status](#Software-status)
 
-> [09.1 - Current issues](#Current-issues)
+[10.0 - Sponsor info](#Sponsor-info)
 
-> [09.2 - Past issues](#Past-issues)
+[11.0 - Contributers](#Contributers)
 
-> [09.3 - Past pull requests](#Past-pull-requests)
+[12.0 - Issues](#Issues)
 
-> [09.4 - Active pull requests](#Active-pull-requests)
+> [12.1 - Current issues](#Current-issues)
 
-[10.0 - Resources](#Resources)
+> [12.2 - Past issues](#Past-issues)
 
-[11.0 - Contributing](#Contributing)
+> [12.3 - Past pull requests](#Past-pull-requests)
 
-[12.0 - About README](#About-README)
+> [12.4 - Active pull requests](#Active-pull-requests)
 
-[13.0 - README Version history](#README-version-history)
+[13.0 - Resources](#Resources)
 
-[14.0 - Footer](#You-have-reached-the-end-of-the-README-file)
+[14.0 - Contributing](#Contributing)
 
-> [14.9 - End of file](#EOF)
+[15.0 - About README](#About-README)
+
+[16.0 - README Version history](#README-version-history)
+
+[17.0 - Footer](#You-have-reached-the-end-of-the-README-file)
+
+> [17.9 - End of file](#EOF)
 
 ***
 
@@ -141,11 +147,32 @@ No Modern history to show for this project.
 
 ***
 
+## Copying
+
+View the copying license for this project [here](/COPYING) (if you haven't built the project yet with the makefile, here is the original link: [COPYINGL](/COPYINGL)
+
+Please note that you also have to follow the rules of the GNU General Public License v3 (GPL3) which you can view [here](/LICENSE.txt)
+
+***
+
+## Credits
+
+View the credits file for this project and see the people who got together to make this project by [clicking/tapping here](/CREDITS)
+
+***
+
+## Installation
+
+View the installation instructions file for this project [here](/INSTALL)
+
+Requirements: Read the instructions for more info, and get the latest up-to-date instructions [here](https://gist.github.com/seanpm2001/745564a46186888e829fdeb9cda584de)
+***
+
 ## Sponsor info
 
-![SponsorButton.png](SponsorButton.png)
+![SponsorButton.png](/SponsorButton.png)
 
-You can sponsor this project if you like, but please specify what you want to donate to. [See the funds you can donate to here](https://github.com/seanpm2001/Sponsor-info/tree/main/For-sponsors)
+You can sponsor this project if you like, but please specify what you want to donate to. [See the funds you can donate to here](https://github.com/seanpm2001/Sponsor-info/tree/main/For-sponsors/)
 
 You can view other sponsor info [here](https://github.com/seanpm2001/Sponsor-info/)
 
@@ -173,7 +200,7 @@ I am ussing the abbreviation "Digital Restrictions Management" instead of the mo
 
 This section is used to raise awareness for the problems with DRM, and also to protest it. DRM is defective by design and is a major threat to all computer users and software freedom.
 
-Image credit: [defectivebydesign.org/drm-free/...](https://www.defectivebydesign.org/drm-free/how-to-use-label)
+Image credit: [defectivebydesign.org/drm-free/...](https://www.defectivebydesign.org/drm-free/how-to-use-label/)
 
 ***
 
@@ -181,7 +208,7 @@ Image credit: [defectivebydesign.org/drm-free/...](https://www.defectivebydesign
 
 Currently, I am the only contributer. Contributing is allowed, as long as you follow the rules of the [CONTRIBUTING.md](/CONTRIBUTING.md) file.
 
-> * 1. [seanpm2001](https://github.com/seanpm2001/) - x commits (As of date, at xx:xx pm)
+> * 1. [seanpm2001](https://github.com/seanpm2001/) - x commits (As of 2021, date, at xx:xx pm)
 
 > * 2. No other contributers.
 
@@ -251,18 +278,20 @@ I archive my own issues. Your issue won't be archived unless you request it to b
 
 Here are some other resources for this project:
 
-[Project language file](PROJECT_LANG.md)
+[Project language file A](PROJECT_LANG_1.<projectLanguage1fileExtension))
 
 [Join the discussion on GitHub](https://github.com/seanpm2001/SNU_2D_ProgrammingTools_IDE_<LanguageNameWithUnderscores>/discussions)
 
 No other resources at the moment.
 
+<!--
 This is the first time I am using Markdown as a project language file, as I learned how to make the GitHub linguist recognize Markdown as a language. I found this out when snooping around on [Apple/Swift Evolution](https://github.com/apple/swift-evolution/blob/main/.gitattributes) if you want to do this yourself, simply add this to your `.gitattributes` file (if you haven't created one yet, make it now, do not add anything else to the file name but `.gitattributes`)
 
 ```gitattributes
 *.md linguist-detectable=true
 *.md linguist-documentation=false
 ```
+!-->
 
 ***
 
@@ -280,7 +309,7 @@ Contributing is allowed for this project, as long as you follow the rules of the
 
 **File version:** `1 (date)`
 
-**Line count:** `0,360`
+**Line count:** `0,415`
 
 ***
 
@@ -338,6 +367,32 @@ Version 1 (Date)
 
 > * Updated the footer
 
+**ITERATION 6**
+
+> * Updated the title section
+
+> * Fixed and update template links
+
+> * Updated the index
+
+> * Added the copying section
+
+> * Added the credits section
+
+> * Added the installation section
+
+> * Updated the resources section
+
+> * Updated the contributors section
+
+> * Added the technical notes section
+
+> * Updated the footer
+
+> * Updated the file info section
+
+> * Updated the file history section
+
 > * No other changes in version 1
 
 Version 2 (Coming soon)
@@ -352,7 +407,7 @@ Version 2 (Coming soon)
 
 ### You have reached the end of the README file
 
-( [Back to top](#Top) | [Exit to GitHub](https://github.com) | [Exit to DuckDuckGo](https://duckduckgo.com/) )
+( [Back to top](#Top) | [Exit to GitHub](https://github.com) | [Exit to Bing](https://www.bing.com/) | [Exit to DuckDuckGo](https://duckduckgo.com/) | [Exit to Ecosia](https://www.ecosia.org/) )
 
 ### EOF
 
